@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="uZb-5l-wSq" customClass="FenQiTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uZb-5l-wSq" id="shC-4R-HSp">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBo-we-Bet">
+                        <rect key="frame" x="0.0" y="33" width="80" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uuj-Gt-YZE">
+                        <rect key="frame" x="80" y="33.5" width="80" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oI8-Xx-2ew">
+                        <rect key="frame" x="240" y="33" width="80" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOr-h7-eUW">
+                        <rect key="frame" x="160" y="33.5" width="80" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Uuj-Gt-YZE" firstAttribute="height" secondItem="mBo-we-Bet" secondAttribute="height" id="0aK-Ro-tgu"/>
+                    <constraint firstAttribute="bottom" secondItem="mBo-we-Bet" secondAttribute="bottom" constant="10" id="5xD-nx-Mkh"/>
+                    <constraint firstAttribute="bottom" secondItem="Uuj-Gt-YZE" secondAttribute="bottom" constant="10" id="7KB-5X-OcW"/>
+                    <constraint firstItem="oI8-Xx-2ew" firstAttribute="width" secondItem="mBo-we-Bet" secondAttribute="width" id="AQj-G8-TEx"/>
+                    <constraint firstItem="oI8-Xx-2ew" firstAttribute="leading" secondItem="EOr-h7-eUW" secondAttribute="trailing" id="Iqo-mj-dll"/>
+                    <constraint firstAttribute="bottom" secondItem="EOr-h7-eUW" secondAttribute="bottom" constant="10" id="SL1-B7-Vlg"/>
+                    <constraint firstItem="EOr-h7-eUW" firstAttribute="leading" secondItem="Uuj-Gt-YZE" secondAttribute="trailing" id="TDK-IR-IgK"/>
+                    <constraint firstAttribute="bottom" secondItem="oI8-Xx-2ew" secondAttribute="bottom" constant="10" id="Wga-lK-DQW"/>
+                    <constraint firstItem="oI8-Xx-2ew" firstAttribute="height" secondItem="mBo-we-Bet" secondAttribute="height" id="Xt7-Si-Tcx"/>
+                    <constraint firstItem="Uuj-Gt-YZE" firstAttribute="leading" secondItem="mBo-we-Bet" secondAttribute="trailing" id="ell-0z-jtU"/>
+                    <constraint firstItem="Uuj-Gt-YZE" firstAttribute="width" secondItem="mBo-we-Bet" secondAttribute="width" id="ete-Zy-Pxt"/>
+                    <constraint firstItem="EOr-h7-eUW" firstAttribute="height" secondItem="mBo-we-Bet" secondAttribute="height" id="fHY-Y6-a8i"/>
+                    <constraint firstItem="mBo-we-Bet" firstAttribute="leading" secondItem="shC-4R-HSp" secondAttribute="leading" id="hGr-kV-wYR"/>
+                    <constraint firstItem="EOr-h7-eUW" firstAttribute="width" secondItem="mBo-we-Bet" secondAttribute="width" id="qEV-PW-nZq"/>
+                    <constraint firstAttribute="trailing" secondItem="oI8-Xx-2ew" secondAttribute="trailing" id="qxy-Ju-U1S"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="eS3-Lx-CYl"/>
+            <connections>
+                <outlet property="benLabel" destination="Uuj-Gt-YZE" id="WEV-CP-pFf"/>
+                <outlet property="periodsLabel" destination="mBo-we-Bet" id="D2v-Ob-Xys"/>
+                <outlet property="rateLabel" destination="EOr-h7-eUW" id="tYZ-PS-XEe"/>
+                <outlet property="repayLabel" destination="oI8-Xx-2ew" id="zaz-gq-8Pt"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

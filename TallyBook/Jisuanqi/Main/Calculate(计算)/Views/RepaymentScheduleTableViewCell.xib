@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="RepaymentScheduleTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ZS-To-UPf">
+                        <rect key="frame" x="0.0" y="33" width="80" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bnh-Ff-oTG">
+                        <rect key="frame" x="80" y="33.5" width="80" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PeA-3k-tOH">
+                        <rect key="frame" x="240" y="33" width="80" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhR-5J-ruW">
+                        <rect key="frame" x="160" y="33.5" width="80" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bnh-Ff-oTG" firstAttribute="width" secondItem="6ZS-To-UPf" secondAttribute="width" id="2Vg-Kh-Jbj"/>
+                    <constraint firstItem="GhR-5J-ruW" firstAttribute="height" secondItem="6ZS-To-UPf" secondAttribute="height" id="2cz-b9-ZLw"/>
+                    <constraint firstItem="GhR-5J-ruW" firstAttribute="width" secondItem="6ZS-To-UPf" secondAttribute="width" id="5iF-O7-A0F"/>
+                    <constraint firstItem="bnh-Ff-oTG" firstAttribute="leading" secondItem="6ZS-To-UPf" secondAttribute="trailing" id="9Zf-Xj-Tei"/>
+                    <constraint firstAttribute="bottom" secondItem="PeA-3k-tOH" secondAttribute="bottom" constant="10" id="Hvt-gi-ykV"/>
+                    <constraint firstAttribute="bottom" secondItem="GhR-5J-ruW" secondAttribute="bottom" constant="10" id="ILj-Us-A1E"/>
+                    <constraint firstItem="GhR-5J-ruW" firstAttribute="leading" secondItem="bnh-Ff-oTG" secondAttribute="trailing" id="LZi-jg-TeL"/>
+                    <constraint firstItem="PeA-3k-tOH" firstAttribute="width" secondItem="6ZS-To-UPf" secondAttribute="width" id="ODI-Ss-lmZ"/>
+                    <constraint firstAttribute="trailing" secondItem="PeA-3k-tOH" secondAttribute="trailing" id="PRb-qh-05V"/>
+                    <constraint firstAttribute="bottom" secondItem="6ZS-To-UPf" secondAttribute="bottom" constant="10" id="RFA-yX-xWL"/>
+                    <constraint firstItem="PeA-3k-tOH" firstAttribute="leading" secondItem="GhR-5J-ruW" secondAttribute="trailing" id="iBT-6D-hlp"/>
+                    <constraint firstItem="PeA-3k-tOH" firstAttribute="height" secondItem="6ZS-To-UPf" secondAttribute="height" id="svC-rU-M2c"/>
+                    <constraint firstAttribute="bottom" secondItem="bnh-Ff-oTG" secondAttribute="bottom" constant="10" id="v7f-rs-btz"/>
+                    <constraint firstItem="bnh-Ff-oTG" firstAttribute="height" secondItem="6ZS-To-UPf" secondAttribute="height" id="xbN-cK-0r7"/>
+                    <constraint firstItem="6ZS-To-UPf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xhq-aT-aJm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="benLabel" destination="bnh-Ff-oTG" id="eCg-vU-P6S"/>
+                <outlet property="periodsLabel" destination="6ZS-To-UPf" id="onf-Y4-Oan"/>
+                <outlet property="rateLabel" destination="GhR-5J-ruW" id="Uae-aN-m8i"/>
+                <outlet property="repayLabel" destination="PeA-3k-tOH" id="BUx-ie-r4W"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

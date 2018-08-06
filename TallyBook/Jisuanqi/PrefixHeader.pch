@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  Jisuanqi
+//
+//  Created by mac on 2018/6/27.
+//  Copyright © 2018年 mac. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UINavigationBar+Awesome.h"
+#import "XYKCalculator.h"
+#import <Masonry.h>
+
+#define RGBA(r, g, b, a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+
+#define JD_StatusBarHeight          \
+[[UIApplication sharedApplication] statusBarFrame].size.height  //状态栏高度
+#define KBackgroundColor [UIColor colorWithRed:17/255.0f green:125/255.0f blue:255/255.0f alpha:1]
+#define KScreenWidth [UIScreen mainScreen].bounds.size.width
+#define KScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define IOS11_OR_LATER_SPACE(par) \
+({\
+float space = 0.0;\
+if (@available(iOS 11.0, *))\
+space = par;\
+(space);\
+})
+
+#define JF_KEY_WINDOW [UIApplication sharedApplication].keyWindow
+#define JF_TOP_SPACE IOS11_OR_LATER_SPACE(JF_KEY_WINDOW.safeAreaInsets.top)
+#define JF_TOP_ACTIVE_SPACE IOS11_OR_LATER_SPACE(MAX(0, JF_KEY_WINDOW.safeAreaInsets.top-20))
+#define JF_BOTTOM_SPACE IOS11_OR_LATER_SPACE(JF_KEY_WINDOW.safeAreaInsets.bottom)
+
+#endif /* PrefixHeader_pch */
+

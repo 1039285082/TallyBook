@@ -1,0 +1,61 @@
+PODS:
+  - Aspects (1.4.1)
+  - AXIndicatorView (0.1.1)
+  - AXNavigationBackItemInjection (0.0.2)
+  - AXPracticalHUD (2.1.4):
+    - AXIndicatorView
+  - AXWebViewController (0.7.2):
+    - Aspects
+    - AXNavigationBackItemInjection
+    - AXPracticalHUD
+    - NJKWebViewProgress
+  - KSGuaidView (0.0.5)
+  - Masonry (1.1.0)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - UMCAnalytics (5.5.0):
+    - UMCCommon
+  - UMCCommon (1.5.1)
+  - UMCSecurityPlugins (1.0.6)
+
+DEPENDENCIES:
+  - AXWebViewController
+  - KSGuaidView
+  - Masonry
+  - UMCAnalytics
+  - UMCCommon
+  - UMCSecurityPlugins
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Aspects
+    - AXIndicatorView
+    - AXNavigationBackItemInjection
+    - AXPracticalHUD
+    - AXWebViewController
+    - KSGuaidView
+    - Masonry
+    - NJKWebViewProgress
+    - UMCAnalytics
+    - UMCCommon
+    - UMCSecurityPlugins
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  AXIndicatorView: 566b490a2dd9781d4ffbcc9752be9b9cdc6e728e
+  AXNavigationBackItemInjection: efe0446967f3cbcc85a9118decd1e145138912dd
+  AXPracticalHUD: 821d170b31e050c426ef8754b07b4264a8b1d861
+  AXWebViewController: 96566c473fce2806f4da696132b31777f5404c9f
+  KSGuaidView: 8a208b7df4140db1c86a8bc1eb170f91b0aabf19
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  UMCAnalytics: 4667788559a72f2fa5077117d1b8802a3b6eb6bb
+  UMCCommon: 16b674e9de0616d3a6128c551348a686d869c3c7
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+
+PODFILE CHECKSUM: 68a1b44f103976bf31d5867254db21842b016208
+
+COCOAPODS: 1.5.2
